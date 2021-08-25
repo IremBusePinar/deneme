@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ANA YEMEKLER</h2>
+
+@Html.TextBox("Aradığınız yemeğin adını yazınız.", null, new { @class = "form-control", id = "anayemek" ,placeholder = "Hangi yemeği arıyorsun?" })
+<button  class="btn btn-success" >ARA</button>
+
